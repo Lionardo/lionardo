@@ -23,7 +23,7 @@ export default function RootLayout({
       <head>
         <meta
           name="facebook-domain-verification"
-          content="pydbtffw2nkq97te3awqtztflymppp"
+          content="hwvw7si8lwhfdl8en335zgk0q46nco"
         />
         <link rel="icon" href="/favicon.ico" sizes="any" />
       </head>
