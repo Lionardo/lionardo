@@ -5,10 +5,10 @@ import { Inter } from "next/font/google";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "My Links",
+  title: "Lionardo",
   description: "All my music & business links in one place.",
   openGraph: {
-    title: "My Links",
+    title: "Lionardo",
     description: "All my music & business links in one place.",
   },
 };
@@ -28,7 +28,7 @@ export default function RootLayout({
       >
         {children}
         <footer className="mt-16 text-xs text-neutral-600">
-          © {new Date().getFullYear()} Your Name
+          © {new Date().getFullYear()} Lionardo
         </footer>
       </body>
     </html>
