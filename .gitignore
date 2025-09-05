@@ -1,0 +1,48 @@
+# Dependency directories
+node_modules/
+
+# Build outputs
+.next/
+out/
+
+# Production
+build/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+
+# Env files
+.env
+.env.local
+.env.*.local
+
+# Typescript build info
+*.tsbuildinfo
+
+# Coverage
+coverage/
+
+# Cache
+.cache/
+.next/cache/
+.vercel/
+
+# Misc
+*.swp
+*.swo
+*.orig
+
+# Generated
+public/README_PLACEHOLDER.txt
