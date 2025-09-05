@@ -20,6 +20,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <meta
+          name="facebook-domain-verification"
+          content="pydbtffw2nkq97te3awqtztflymppp"
+        />
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+      </head>
       <body
         className={
           inter.className +
