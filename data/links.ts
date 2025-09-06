@@ -9,7 +9,7 @@ export const musicLinks: LinkItem[] = [
   },
   {
     title: "Apple Music",
-    url: "https://music.apple.com/us/album/from-the-shadows-ep/1837929890",
+    url: "https://music.apple.com/us/artist/lionardo/1837552422",
     description: "Listen on Apple Music.",
   },
   {
