@@ -9,8 +9,8 @@ export const musicLinks: LinkItem[] = [
   },
   {
     title: "Apple Music",
-    url: "",
-    description: "Apple Music link coming soon.",
+    url: "https://music.apple.com/us/album/from-the-shadows-ep/1837929890",
+    description: "Listen on Apple Music.",
   },
   {
     title: "YouTube Music Channel",
