@@ -3,7 +3,10 @@
 @tailwind utilities;
 
 body {
-  @apply bg-black text-neutral-100 antialiased;
+  @apply min-h-screen text-neutral-100 antialiased;
+  /* Bottom 10% brand color fading to black */
+  background-color: #000;
+  background-image: linear-gradient(to top, #2a080a 1%, #000000 90%);
 }
 
 a {

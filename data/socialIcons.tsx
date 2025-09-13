@@ -1,18 +1,10 @@
-import {
-  Github,
-  Instagram,
-  Twitter,
-  Youtube,
-  Music2,
-  Globe,
-  Circle,
-} from "lucide-react";
+import { Github, Instagram, X, Youtube, Music2, Globe } from "lucide-react";
 
 export const socialIconMap = {
   github: Github,
   instagram: Instagram,
-  twitter: Twitter,
-  x: Twitter,
+  twitter: X,
+  x: X,
   youtube: Youtube,
   music: Music2,
   website: Globe,

@@ -13,7 +13,7 @@ module.exports = {
       },
       colors: {
         brand: {
-          DEFAULT: "#2563eb",
+          DEFAULT: "#2a080a",
           foreground: "#ffffff",
         },
       },

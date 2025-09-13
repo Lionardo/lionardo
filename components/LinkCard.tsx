@@ -33,7 +33,7 @@ export default function LinkCard({
             </p>
           )}
         </div>
-  <ArrowUpRight className="w-4 h-4 text-neutral-500 transition group-hover:text-[#2a080a]" />
+        <ArrowUpRight className="w-4 h-4 text-neutral-500 transition group-hover:text-[#2a080a]" />
       </div>
     </a>
   );
