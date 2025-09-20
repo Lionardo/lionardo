@@ -1,5 +1,5 @@
 export const profile = {
   name: "Lionardo",
-  avatar: "/lionardo_dark.jpg",
+  avatar: "/lionardo.jpg",
   tagline: "new album: From the shadows",
 };

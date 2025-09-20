@@ -6,6 +6,7 @@ export interface LinkItem {
   url: string;
   description?: string;
   accentColor?: string; // optional per-link accent
+  icon?: string; // optional path to an icon in public/
 }
 
 export default function LinkCard({
@@ -13,6 +14,7 @@ export default function LinkCard({
   url,
   description,
   accentColor,
+  icon,
 }: LinkItem) {
   return (
     <a
@@ -25,6 +27,17 @@ export default function LinkCard({
       <div className="flex items-start justify-between gap-4">
         <div>
           <h3 className="font-medium text-sm flex items-center gap-2">
+            {icon && (
+              // eslint-disable-next-line @next/next/no-img-element
+              <img
+                src={icon}
+                alt=""
+                width={16}
+                height={16}
+                className="inline-block opacity-80 group-hover:opacity-100 transition"
+                aria-hidden="true"
+              />
+            )}
             {title}
           </h3>
           {description && (
