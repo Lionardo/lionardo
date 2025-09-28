@@ -47,7 +47,8 @@ export const socialLinks: SocialLink[] = [
   { platform: "instagram", url: "https://www.instagram.com/lionardomendonca" },
   { platform: "x", url: "https://x.com/liomendonca" },
   { platform: "youtube", url: "https://www.youtube.com/@lionardo" },
-  { platform: "github", url: "https://github.com/Lionardo" },
+  // { platform: "github", url: "https://github.com/Lionardo" },
+  { platform: "tiktok", url: "https://www.tiktok.com/@lionardomendonca" },
 ];
 
 export interface LinkCategory {

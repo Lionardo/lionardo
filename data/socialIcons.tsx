@@ -1,13 +1,23 @@
-import { Github, Instagram, X, Youtube, Music2, Globe } from "lucide-react";
+// Social platforms we support in the UI. These strings map to
+// react-social-icons "network" names, with a few aliases handled below.
+export type SocialPlatform =
+  | "github"
+  | "instagram"
+  | "twitter"
+  | "x"
+  | "youtube"
+  | "tiktok"
+  | "website"
+  | "music";
 
-export const socialIconMap = {
-  github: Github,
-  instagram: Instagram,
-  twitter: X,
-  x: X,
-  youtube: Youtube,
-  music: Music2,
-  website: Globe,
+// Map common aliases to the underlying react-social-icons network id.
+// For example, X (formerly Twitter) still uses the "twitter" network id
+// in most icon libraries.
+export const networkAlias: Record<string, string> = {
+  x: "x",
 };
 
-export type SocialPlatform = keyof typeof socialIconMap;
+export function resolveNetwork(platform?: string): string | undefined {
+  if (!platform) return undefined;
+  return networkAlias[platform] ?? platform;
+}
