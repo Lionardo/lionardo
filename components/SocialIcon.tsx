@@ -39,6 +39,7 @@ export default function SocialIcon({ platform, url, label }: SocialLink) {
         className="!m-0 pointer-events-none"
         style={{ height: 20, width: 20 }}
         aria-label={aria}
+        as="div"
       />
       <span className="text-sm">{display}</span>
     </a>
