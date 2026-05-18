@@ -30,9 +30,15 @@ export const businessLinks: LinkItem[] = [
     icon: "/getitAI.jpg",
   },
   {
+    title: "Zeitfield",
+    url: "https://zeitfield.com",
+    description: "Documentary media channel",
+    icon: "/zeitfield.webp",
+  },
+  {
     title: "Mindart",
     url: "https://mindart.app",
-    description: "AI powered carrer & self development",
+    description: "AI powered career & self development",
     icon: "/mindart.svg",
   },
   {
