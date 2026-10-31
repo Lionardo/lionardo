@@ -47,6 +47,12 @@ export const businessLinks: LinkItem[] = [
     description: "Educational platform on Active Inference.",
     icon: "/active_inference.svg",
   },
+  {
+    title: "peptigen.ai",
+    url: "https://www.peptigen.ai/",
+    description: "Evidence-based peptide knowledge library.",
+    icon: "/peptigen.svg",
+  },
 ];
 
 export const socialLinks: SocialLink[] = [
